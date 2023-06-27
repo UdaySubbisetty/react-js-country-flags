@@ -6,6 +6,8 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
+## Result 
+<img src="./Result.png" alt="Result.png" width="80%" />
 
 ## Usage
 
