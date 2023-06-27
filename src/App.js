@@ -1,4 +1,4 @@
-import {getFlagsByDialCode,getFlagByCountryName,getFlagEmojiByCountryName,getCountryDetailsByName} from "./GetCountryFlag";
+import {getFlagsByDialCode,getFlagByCountryName,getFlagEmojiByCountryName,getCountryDetailsByName} from "./components";
 
 function App() {
 

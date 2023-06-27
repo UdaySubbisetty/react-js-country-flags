@@ -1,11 +1,10 @@
 # react-country-flag
 
-> React component for country flags/details.
-
-[![NPM](https://img.shields.io/npm/v/react-country-flag.svg)](https://www.npmjs.com/package/react-country-flag)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
 ## Install
+
+```bash
+npm install --save react-js-country-flags
+```
 ## Result 
 <img src="./Result.png" alt="Result.png" width="80%" />
 
@@ -15,7 +14,7 @@ Pass the country code or dial_code to get details/flag/flag emoji
 
 ```jsx
 import React from "react"
-import {getFlagsByDialCode,getFlagByCountryName,getFlagEmojiByCountryName,getCountryDetailsByName} from "react-country-flags-details";
+import {getFlagsByDialCode,getFlagByCountryName,getFlagEmojiByCountryName,getCountryDetailsByName} from "react-js-country-flags";
 
 function App() {
 

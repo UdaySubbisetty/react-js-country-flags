@@ -1454,7 +1454,7 @@ const countryListWithEmoji = [{
 
 function getCountryCode(countryName) {
     try {
-        return require(`../src/flags/${countryName.toLowerCase()}.svg`)
+        return require(`./flags/${countryName.toLowerCase()}.svg`)
        } catch (err) {
         return null;
        }
