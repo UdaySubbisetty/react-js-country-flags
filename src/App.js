@@ -1,19 +1,4 @@
-# react-country-flag
-
-> React component for country flags/details.
-
-[![NPM](https://img.shields.io/npm/v/react-country-flag.svg)](https://www.npmjs.com/package/react-country-flag)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-## Install
-
-## Usage
-
-Pass the country code or dial_code to get details/flag/flag emoji
-
-```jsx
-import React from "react"
-import {getFlagsByDialCode,getFlagByCountryName,getFlagEmojiByCountryName,getCountryDetailsByName} from "react-country-flags-details";
+import {getFlagsByDialCode,getFlagByCountryName,getFlagEmojiByCountryName,getCountryDetailsByName} from "./GetCountryFlag";
 
 function App() {
 
@@ -30,7 +15,7 @@ function App() {
       <br/>
 
       <p>Country flag by name US</p>
-       <img src={getFlagByCountryName("US")} style={{height:'30px',width:'30px'}}/>
+     <img src={getFlagByCountryName("US")} style={{height:'30px',width:'30px'}}/>
       <br/>
  
       <p>country Emoji {getFlagEmojiByCountryName("in")}</p>
@@ -45,13 +30,3 @@ function App() {
 }
 
 export default App;
-```
-
-# Detecting Emoji support
-
-Try this out and conditionally render your country flag
-https://github.com/danalloway/detect-emoji-support
-
-## License
-
-MIT © [UdaySubbisetty](https://github.com/UdaySubbisetty)
