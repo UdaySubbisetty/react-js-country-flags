@@ -1,6 +1,6 @@
 {
   "name": "react-js-country-flags",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "private": false,
   "keywords":["react","reactj","flags","country","dialCode","code","country-list","country-details","javascript","svg"],
   "babel": {
@@ -9,6 +9,7 @@
     ]
   },
   "homepage": "https://github.com/UdaySubbisetty/react-js-country-flags",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
